@@ -68,6 +68,7 @@ Tabel utama:
     
 **Spesifikasi Server**
 
+
 Komponen	Minimum
 PHP	        8.2
 MySQL	    8.0+
@@ -84,6 +85,7 @@ NPM	        9+
     Mudah dikembangkan
     Struktur folder mengikuti standar Laravel
     Cocok untuk pembelajaran maupun implementasi nyata
+    
 **Cocok Digunakan Untuk**
     Inventaris Perusahaan
     Asset Management Kantor
@@ -93,6 +95,7 @@ NPM	        9+
     Sistem Asset UMKM
     Tugas Akhir / Skripsi
     Portfolio Full Stack Laravel
+    
 **Cara Instalasi**
 1. Ekstrak file project.
 2. Jalankan composer install.
