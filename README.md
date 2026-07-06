@@ -67,6 +67,7 @@ Tabel utama:
     activity_logs
     
 **Spesifikasi Server**
+
 Komponen	Minimum
 PHP	        8.2
 MySQL	    8.0+
