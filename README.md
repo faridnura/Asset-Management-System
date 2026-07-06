@@ -70,11 +70,17 @@ Tabel utama:
 
 
 Komponen	Minimum
+
 PHP	        8.2
+
 MySQL	    8.0+
+
 Laravel	    12
+
 Composer	2.x
+
 Node.js	    18+
+
 NPM	        9+
 
 **Keunggulan Project**
