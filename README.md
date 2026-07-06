@@ -1,29 +1,38 @@
 **Detail Project**
 **Framework**
     Laravel 12
+    
 **Bahasa Pemrograman**
     PHP 8.2+
     HTML5
     CSS3
     JavaScript
+    
 **Database**
     MySQL
+    
 **Frontend**
     Tailwind CSS
     Blade Template Engine
     Font Awesome
+    
 **Authentication**
     Laravel Breeze
+    
 **Build Tool**
     Vite
+    
 **Package Manager**
     Composer
     NPM
+    
 **Web Server**
     Apache (XAMPP)
     Compatible dengan Laragon
+    
 **Database Management**
     phpMyAdmin
+    
 **Version Control**
     Git
 
