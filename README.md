@@ -38,6 +38,7 @@
 
     
 **FITUR UTAMA**
+
     Authentication Login & Register
     Dashboard
     Statistik Asset
@@ -60,6 +61,7 @@
 **Struktur Database**
 
 Tabel utama:
+
     users
     assets
     activity_logs
