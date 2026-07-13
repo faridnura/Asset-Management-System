@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  # Service untuk Aplikasi Laravel
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: laravel-app
+    container_name: laravel_app_container
+    ports:
+      - "8000:80"
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - db
+    networks:
+      - laravel-network
+
+  # Service untuk Database MySQL (Lokal)
+  db:
+    image: mysql:8.0
+    container_name: laravel_db_container
+    restart: unless-stopped
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: laravel_db
+      MYSQL_ROOT_PASSWORD: root_password
+    networks:
+      - laravel-network
+
+networks:
+  laravel-network:
+    driver: bridge
